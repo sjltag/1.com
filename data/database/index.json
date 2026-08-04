@@ -1,8 +1,8 @@
 {
   "sheet": "DATABASE",
   "range": "A:G",
-  "titleCount": 2070,
-  "rowCount": 10172,
+  "titleCount": 2071,
+  "rowCount": 10173,
   "shardCount": 64,
   "files": {
     "A1": "shards/shard-06.json",
@@ -227,6 +227,7 @@
     "A97": "shards/shard-21.json",
     "A98": "shards/shard-19.json",
     "A99": "shards/shard-25.json",
+    "adaw": "shards/shard-57.json",
     "CT1": "shards/shard-59.json",
     "CT10": "shards/shard-16.json",
     "CT11": "shards/shard-44.json",
