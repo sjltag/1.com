@@ -1,6 +1,6 @@
 // Google Sheets remains the editing source. Normal visitors read the generated
 // JSON files below, so they do not use the Google Sheets request quota.
-const SHEET_ID = '1FfhN47psQiWAEUzNYpowfOZiHYC7a38MdiFUrVRBb8Y';
+const SHEET_ID = '1zHKY-16b6EJdB_nJy0N1ajrVvBXL9VWRJXnYwUvozwg';
 const API_KEY = 'AIzaSyDbPZ-hFkQuEISkMPzkTlaT2MHY1DhPbvE';
 
 const JSON_DATA_FILES = {
