@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # Four times per hour, away from the busy start of the hour.
-    - cron: '7,22,37,52 * * * *'
+    - cron: '0 */23 * * *'
 
 permissions:
   contents: write
@@ -31,7 +31,7 @@ jobs:
         env:
           GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
           GOOGLE_SHEETS_API_KEY: ${{ secrets.GOOGLE_SHEETS_API_KEY }}
-          SITE_URL: https://sjcollection.github.io/.com/
+          SITE_URL: https://sjltag.github.io/1.com/
 
       - name: Save changed JSON files
         run: |
